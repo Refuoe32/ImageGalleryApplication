@@ -1,0 +1,30 @@
+.root {
+-fx-background-color:#000000;
+}
+.thumbnail {
+    -fx-border-color: #FF0000;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+.thumbnail:hover {
+    -fx-border-color: #0000FF;
+}
+
+.navigation-box {
+    -fx-background-color: #87CEEB;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: #FF0000;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
